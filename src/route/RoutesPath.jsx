@@ -21,8 +21,8 @@ const RoutesPath = () => {
       <Route path="/movie/category/:cat" element={<AllCategory />} />
       <Route path="/tv/category/:cat" element={<AllCategory />} />
       
-      <Route path="tv/:cat/" element={<GenreCategory />} />
-      <Route path="movie/:cat/" element={<GenreCategory />} />
+      <Route path="/tv/:cat/" element={<GenreCategory />} />
+      <Route path="/movie/:cat/" element={<GenreCategory />} />
 
       <Route path="/watched" element={<Watched />} />
       <Route path="/watchlist" element={<WatchList />} />
