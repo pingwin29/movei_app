@@ -1,7 +1,7 @@
 {
   "name": "movielist",
   "version": "0.1.0",
-  "homepage": "https://pinpetet.github.io/movie_app",
+  "homepage": "https://pinpetet.github.io/movei_app",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.0",
