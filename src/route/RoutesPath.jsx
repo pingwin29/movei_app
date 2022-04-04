@@ -10,22 +10,22 @@ import Detail from "../page/Detail";
 const RoutesPath = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/movei_app/" element={<Home />} />
 
-      <Route path="/movie" element={<AllCategory />} />
-      <Route path="/tv" element={<AllCategory />} />
+      <Route path="/movei_app/movie" element={<AllCategory />} />
+      <Route path="/movei_app/tv" element={<AllCategory />} />
 
-      <Route path="/movie/detail/:id" element={<Detail />} />
-      <Route path="/tv/detail/:id" element={<Detail />} />
+      <Route path="/movei_app/movie/detail/:id" element={<Detail />} />
+      <Route path="/movei_app/tv/detail/:id" element={<Detail />} />
 
-      <Route path="/movie/category/:cat" element={<AllCategory />} />
-      <Route path="/tv/category/:cat" element={<AllCategory />} />
+      <Route path="/movei_app/movie/category/:cat" element={<AllCategory />} />
+      <Route path="movei_app//tv/category/:cat" element={<AllCategory />} />
       
-      <Route path="tv/:cat/" element={<GenreCategory />} />
-      <Route path="movie/:cat/" element={<GenreCategory />} />
+      <Route path="/movei_app/tv/:cat/" element={<GenreCategory />} />
+      <Route path="/movei_app/movie/:cat/" element={<GenreCategory />} />
 
-      <Route path="/watched" element={<Watched />} />
-      <Route path="/watchlist" element={<WatchList />} />
+      <Route path="/movei_app/watched" element={<Watched />} />
+      <Route path="/movei_app/watchlist" element={<WatchList />} />
     </Routes>
   );
 };
