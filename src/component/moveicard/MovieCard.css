@@ -1,0 +1,80 @@
+.movie_card {
+  width: 100%;
+  height: 100%;
+  transition: all 0.8s;
+}
+
+.movie_card:hover .movie_card_overlay {
+  transform: translateX(0px);
+  /* transform: scale(1.1); */
+}
+.movie_card:hover .movie_mininfo {
+  color: blueviolet;
+}
+.movie_card:hover .movie_img img {
+  transform: scale(1.2);
+}
+.movie_img {
+  height: 80%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.movie_img img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  transition: all 0.8s;
+}
+.movie_mininfo {
+  height: 20%;
+  width: 100%;
+  text-align: left;
+  transition: all 0.8s;
+}
+.movie_mininfo p {
+  margin-bottom: 0;
+}
+.movie_mininfo span {
+  color: grey;
+}
+.movie_card_overlay_inner {
+  height: 20%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.movie_card_overlay {
+  padding: 20px;
+
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  transform: translateX(100%);
+  transition: all 0.3s;
+}
+.movie_card_overlay i {
+  color: blueviolet;
+}
+
+.rating_circle {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+.red_border {
+  border: 2px solid red;
+}
+.yellow_border {
+  border: 2px solid yellow;
+}
+.green_border {
+  border: 2px solid green;
+}

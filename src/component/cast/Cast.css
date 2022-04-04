@@ -1,0 +1,53 @@
+.cast_swiper {
+  height: 200px !important;
+}
+.cast_swiper .swiper-slide {
+  position: relative;
+  width: 20%;
+  user-select: none;
+  cursor: pointer;
+}
+.cast_img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.cast_swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.8s;
+}
+@media (max-width: 768px) {
+  .cast_swiper .swiper-slide {
+    width: 25%;
+  }
+}
+@media (max-width: 450px) {
+  .cast_swiper .swiper-slide {
+    width: 40%;
+  }
+}
+.cast_name_container {
+  position: absolute;
+  opacity: 0;
+  background: #00000080;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: all 0.8s;
+}
+.cast_name {
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cast_swiper .swiper-slide:hover img {
+  transform: scale(1.2);
+}
+.cast_swiper .swiper-slide:hover .cast_name_container {
+  opacity: 1;
+}

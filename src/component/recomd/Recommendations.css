@@ -1,0 +1,27 @@
+.red_swiper {
+  max-height: 350px;
+  padding: 15px 0 !important;
+}
+.swiper_slide_a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.red_swiper .swiper-slide {
+  width: 15%;
+}
+@media (max-width: 1240px) {
+  .red_swiper .swiper-slide {
+    width: 25%;
+  }
+}
+@media (max-width: 766px) {
+  .red_swiper .swiper-slide {
+    width: 35%;
+  }
+}
+@media (max-width: 566px) {
+  .red_swiper .swiper-slide {
+    width: 45%;
+  }
+}
