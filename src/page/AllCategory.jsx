@@ -134,9 +134,9 @@ const AllCategory = () => {
   const { page, searchPage, totalPage, searchTotalPage, movie, searchMovie, query } = movieInfo;
   return (
     <div className="container ">
-      <div className=" text-center bg-black category_header py-2  w-100 d-flex justify-content-between align-items-center mb-4">
-        <h3 className="category_title text-uppercase">
-          {type ? type : "All"} <br /> {category}
+      <div className=" text-center bg-black category_header py-2 w-100 mb-4">
+        <h3 className="category_title text-uppercase mb-3">
+          {type ? type : "All"} {category}
         </h3>
         <SearchBox searchHandler={searchHandler} />
       </div>

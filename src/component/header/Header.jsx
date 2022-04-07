@@ -10,7 +10,7 @@ const Header = () => {
   };
   return (
     <div className="container-fluid header_section d-inline-block d-md-none">
-      <div className="text-dark text-white p-2 " onClick={clickHandler}>
+      <div className="text-dark text-white " onClick={clickHandler}>
         <i className="fa-solid fa-bars"></i>
       </div>
     </div>

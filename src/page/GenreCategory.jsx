@@ -37,8 +37,7 @@ const AllCategory = () => {
 
   const [movieInfo, dispatch] = useReducer(reducerFunction, intiValue);
 
-
-  // genre id for search genre movie 
+  // genre id for search genre movie
   const { id } = genrelist.find((data) => {
     return data.name.toLocaleLowerCase() == type.toLocaleLowerCase();
   });
@@ -69,9 +68,9 @@ const AllCategory = () => {
   const { movie, totalPage, page } = movieInfo;
   return (
     <div className="container">
-      <div className="category_header bg-black py-2 w-100 d-flex justify-content-between align-items-center mb-4">
+      <div className="category_header bg-black py-2 w-100 mb-4">
         <h3 className="category_title text-center text-uppercase">
-          {category} <br /> {type}
+          {category} {type}
         </h3>
       </div>
 
