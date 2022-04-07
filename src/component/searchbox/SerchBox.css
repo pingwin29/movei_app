@@ -37,10 +37,10 @@
   transition: all 0.8s;
   background-color: transparent;
   padding-left: 20px;
-  color: #fff;
+  color: #000;
 }
 .search_box_input::placeholder {
-  color: #fff;
+  color: #000;
 }
 .search_box_icon {
   width: 40px;
