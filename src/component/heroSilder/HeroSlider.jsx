@@ -80,7 +80,7 @@ const SliderItem = (movie) => {
             ) : (
               <i className="fa-solid fa-bookmark me-2"></i>
             )}
-            BookMark
+            Favorite
           </button>
         </div>
       </div>
