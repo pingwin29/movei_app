@@ -1,2 +1,2 @@
 # movei_app
-demo-link : https://pinpetet.github.io/movei_app/
+demo-link : https://pingwin29.github.io/movei_app/
